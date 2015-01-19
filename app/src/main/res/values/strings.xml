@@ -1,0 +1,10 @@
+<resources>
+  <string name="app_name">Sliding Pane Layout</string>
+  <string name="title_two_pane">Two-pane</string>
+  <string name="title_partially_shown_pane">Partially shown pane</string>
+  <string name="title_cross_fade_pane">Cross-fade pane</string>
+  <string name="pane_1">Pane 1</string>
+  <string name="pane_2">Pane 2</string>
+  <string name="partial">Partial</string>
+  <string name="full">full</string>
+</resources>

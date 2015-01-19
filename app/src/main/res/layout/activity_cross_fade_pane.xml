@@ -1,0 +1,27 @@
+<com.sqisland.android.sliding_pane_layout.CrossFadeSlidingPaneLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sliding_pane_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  <FrameLayout
+      android:layout_width="@dimen/side_pane_width"
+      android:layout_height="match_parent"
+      android:background="@color/purple">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/full"/>
+    <TextView
+        android:layout_width="@dimen/partial_pane_width"
+        android:layout_height="match_parent"
+        android:background="@color/blue"
+        android:text="@string/partial"/>
+  </FrameLayout>
+  <TextView
+      android:layout_width="@dimen/main_pane_width"
+      android:layout_height="match_parent"
+      android:layout_weight="1"
+      android:layout_marginLeft="@dimen/partial_pane_width"
+      android:background="@color/light_blue"
+      android:text="@string/pane_2"/>
+</com.sqisland.android.sliding_pane_layout.CrossFadeSlidingPaneLayout>

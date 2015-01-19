@@ -1,0 +1,26 @@
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sqisland.android.sliding_pane_layout">
+  <application
+      android:label="@string/app_name"
+      android:icon="@drawable/ic_launcher"
+      android:theme="@style/AppTheme">
+    <activity
+        android:name=".MainActivity"
+        android:label="@string/app_name">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+    </activity>
+    <activity
+        android:name=".TwoPaneActivity"
+        android:label="@string/title_two_pane"/>
+    <activity
+        android:name=".PartiallyShownPaneActivity"
+        android:label="@string/title_partially_shown_pane"/>
+    <activity
+        android:name=".CrossFadePaneActivity"
+        android:label="@string/title_cross_fade_pane"/>
+  </application>
+</manifest>
